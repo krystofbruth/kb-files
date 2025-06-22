@@ -1,0 +1,28 @@
+{
+  "name": "kb-files",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/krystofbruth/kb-files#readme",
+  "bugs": {
+    "url": "https://github.com/krystofbruth/kb-files/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/krystofbruth/kb-files.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Kryštof Bruthans",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@types/mongodb": "^4.0.6",
+    "if-types": "^1.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.1",
+    "zod": "^3.25.67"
+  }
+}
